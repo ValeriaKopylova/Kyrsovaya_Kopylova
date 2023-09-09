@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".WeightActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gramm">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etGramm"
+            android:hint="0"
+           >
+
+        </EditText>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kilogr">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etKilogr"
+            android:hint="0"
+            >
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/centner">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etCenther"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tonna"
+            >
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etTonna"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/funt">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etFunt"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ynciay">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etYnciay"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TYnciay">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etTYnciay"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Kyrsovaya_Kopylova</string>
+
+
+    <string name="greetingText">Добро пожаловать!</string>
+    <string name="loginText">Логин</string>
+    <string name="passwordText">Пароль</string>
+    <string name="enterButton">Ввод</string>
+    <string name="myInfo">Разработчик Копылова Валерия РИБО-02-21</string>
+
+    <string name="weight">Вес</string>
+    <string name="length">Длина</string>
+    <string name="square">Площадь</string>
+    <string name="speed">Скорость</string>
+
+
+    <string name="gramm">Грамм</string>
+    <string name="kilogr">Килограмм</string>
+    <string name="centner">Центнер</string>
+    <string name="tonna">Тонна</string>
+    <string name="funt">Фунт</string>
+    <string name="ynciay">Унция</string>
+    <string name="TYnciay">Тройская унция</string>
+
+    <string name="metrSec">Метр в секунду</string>
+    <string name="kmChas">Километр в час</string>
+    <string name="kmSec">Километр в секунду</string>
+
+
+    <string name="sm">Сантиметр</string>
+    <string name="metr">Метр</string>
+    <string name="km">Километр</string>
+    <string name="duim">Дюйм</string>
+    <string name="yard">Ярд</string>
+    <string name="mila">Миля</string>
+    <string name="seaMile">Морская миля</string>
+    <string name="versta">Верста</string>
+
+
+    <string name="kvMetr">Кв. метр</string>
+    <string name="kvKilo">Кв. километр</string>
+    <string name="gektar">Гектар</string>
+    <string name="acr">Акр</string>
+
+
+</resources>

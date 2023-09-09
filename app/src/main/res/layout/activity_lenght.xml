@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".LenghtActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sm">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etSm"
+            android:hint="0"
+            >
+
+        </EditText>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/metr">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etMetr"
+            android:hint="0"
+            >
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/km">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etKm"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/duim"
+            >
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etDuim"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yard">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:id="@+id/etYard"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mila">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etMila"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seaMile">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etSeaMile"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/versta">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etVersta"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:hint="0"
+            android:inputType="number">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
